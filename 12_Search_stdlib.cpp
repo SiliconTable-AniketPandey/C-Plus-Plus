@@ -3,6 +3,8 @@
 #include <vector>
 using namespace std;
 
+// This program demonstrates use of prebuilt binary_search function in the algorithm library 
+
 bool compare(int i , int j)
 {
    return (i < j);
