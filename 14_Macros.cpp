@@ -1,5 +1,5 @@
 # include<iostream>
-# define TWO 2  // # define is a preprocessor directive and TWO is a macro not a variable. Macro is a textual replacement for variables.
+# define TWO 2  // # define is a preprocessor directive and TWO is a macro not a variable. Manifest Constant or Macros is a textual replacement for variables.
 # define PI 3.141 // Same is the case with pi
 
 using namespace std;

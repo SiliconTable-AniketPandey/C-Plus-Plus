@@ -18,11 +18,11 @@ int main()
 
 }
 
+// Don't use macros or Manifest constants from now on, because 
 
-
-// Using  #define                                        Using const
+// Using  #define                           |             Using const
 //--------------------------------------------------------------------------
-/**  Is not type safe                              * Has its type             
- * Replaced textually by CPP                       * Visible to the compiler
- * Cannot be watched in debugger                   * Can be watched in debugger
- * Evaluated as many times as replaced             * Evaluated only on initialization */
+/**  Is not type safe                       |       * Has its type             
+ * Replaced textually by CPP                |       * Visible to the compiler
+ * Cannot be watched in debugger            |       * Can be watched in debugger
+ * Evaluated as many times as replaced      |       * Evaluated only on initialization */
