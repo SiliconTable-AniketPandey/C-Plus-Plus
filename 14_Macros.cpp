@@ -12,7 +12,6 @@ int main()
     cin>>r;
     cout<<"The area of circle is "<<PI*r*r<<endl; // The compiler does not know what PI is it sees it as cout<<"Enter the radius of circle is "<<3.141 * r * r<<endl;
     cout<<"The perimeter of teh circle is "<<TWO*PI*r<<endl; // The compiler does not know what TWO and PI are it sees it as cout<<"Enter the perimeter of teh circle is 2 * 3.141 * r * r<<endl;
-    
     return 0;
 }
 
