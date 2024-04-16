@@ -7,5 +7,5 @@ int main()                  // in newer version of C++ main must return somthing
     cin>>a>>b;                         // >> is called the input streaming operator
     sum = a+b;
     cout<<"Sum = "<<sum;
-    return 0;  // not necessary here
+    return 0;  // not necessary here 
 }
