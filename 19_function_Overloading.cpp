@@ -11,6 +11,9 @@ Here's an example to demonstrate function overloading in C++: */
 using namespace std;
 
 #define PI 3.14
+
+// int calculate (int a = 0, int b = 0 ) { return a + b; }
+// double calculate (double a = 0, double b = 0) {return a * b; } // will not work as the parameters are same.
 double calculate(double length = 0, double breadth = 0) { return length * breadth; } // same name/scope of the function is being used for all the other functions too, but the parameters have to be different from each other
 long calculate(long side = 0) { return side*side ;}
 float calculate(float radius = 0) { return PI*radius*radius; }
