@@ -38,18 +38,25 @@
 
 # include <iostream>
 #include <string>
+# include <algorithm>
 using namespace std;
 
 class Person{
     public:
             string name; // Name and age are the attributes of the class
             int age;
+            int area( double a = 0, double b = 0) {return a * b;}
+
+            void reverse_name() { reverse(name.begin(), name.end());}
 };
 
 int main() {
     Person person; // person is the object of the class Person
     person.name = "Aniket"; // Assigning values to the attributes of the class through the object constructor
     person.age = 25;
+    cout<<"Area of the rectangle is "<<person.area( 100,200)<<endl; 
+    person.reverse_name();
+    cout<<"Name reversed is "<<person.name<<endl;
     
     cout<<person.name << " is " << person.age << " years old" << endl;
     return 0;
