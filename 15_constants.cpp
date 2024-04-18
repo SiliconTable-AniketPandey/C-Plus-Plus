@@ -6,7 +6,7 @@ int main()
     int m; // some garbage value in here
     int *p;
 
-    p = &m; // p holds the address of m.
+    p = &m;  // p holds the address of m.
     *p = 0; // But now m holds 0 as it's value. Becuse p is pointing towrds m 
     cout <<"The value of m is  "<< m << endl;
     *p = 200;
