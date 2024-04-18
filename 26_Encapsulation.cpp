@@ -24,5 +24,5 @@ int main()
 {
     Car Mycar("Alto", 515);
     cout<<Mycar.getBrand()<<endl;
-    Mycar.display_info();
+    Mycar.display_info(); 
 }
