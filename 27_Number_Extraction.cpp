@@ -6,7 +6,7 @@ int main()
     cout<<"Enter a number"<<endl;
     cin>>n;
 
-    long long rem;
+    long long rem; 
     while(n>0)
     {
         rem = n % 10;
