@@ -4,7 +4,7 @@
 using namespace std;
 int main(){
     char somthing[100];
-    strcpy(somthing,"Hello world");
+    strcpy(somthing,"07:14 AM");
     fstream file;
     file.open("BinarySample.dat",ios::binary| ios:: in | ios:: out | ios::trunc);
     if(!file.is_open()){
@@ -23,5 +23,6 @@ int main(){
         file.get(ch);
         cout<<ch;
     }
+    file.close();
     return 0;
 }

@@ -8,3 +8,6 @@ sorting.exe
 String_Concatination.exe
 Time_Binary_file.exe
 .vscode/settings.json
+.vscode/tasks.json
+sorting.exe
+BinaryFile.exe
